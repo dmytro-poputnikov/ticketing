@@ -2,3 +2,8 @@
 
 npm install typescript ts-node-dev express @types/express 
 tsc --init
+
+For Validation: 
+npm install express-validator
+
+npm install express-async-errors --save
