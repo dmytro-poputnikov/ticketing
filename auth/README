@@ -8,3 +8,8 @@ npm install express-validator
 
 npm install express-async-errors --save
 npm install mongoose
+npm install cookie-session @types/cookie-session
+npm install jsonwebtoken @types/jsonwebtoken
+
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
+kubectl get secrets
